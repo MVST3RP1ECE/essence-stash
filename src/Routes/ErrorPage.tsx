@@ -1,16 +1,5 @@
-import { FC } from 'react';
 import { useRouteError } from 'react-router-dom'
-
-type obj = {
-    data: string,
-    error: {
-        message: string,
-        stack: string
-    },
-    internal: boolean,
-    status: number,
-    statusText: string
-}
+import { obj } from '../Types/Types';
 
 export default function ErrorPage() {
     const error: obj = useRouteError();
