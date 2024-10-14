@@ -1,11 +1,11 @@
 import Header from '../Components/Header/Header'
-import handleClickAddToCart from '../Functions/handleClickAddToCart'
+import CartSection from '../Components/CartSection/CartSection'
 
 export default function Cart() {
     return (
         <>
             <Header />
-            <h1>Shopping cart</h1>
+            <CartSection />
         </>
     )
 }

@@ -4,6 +4,8 @@ export type itemArray = Array<
         name: string,
         url: string,
         keyId: number,
+        price: number,
+        volume: string,
     }>
 
 export type obj = {
