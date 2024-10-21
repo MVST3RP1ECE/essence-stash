@@ -1,14 +1,15 @@
 import Header from './Components/Header/Header'
 import HeaderCart from './Components/HeaderCart/HeaderCart'
-import InfoSection from './Components/MainSection/MainSection'
 import './App.css'
+import MainSection from './Components/MainSection/MainSection'
 
-export default function App() {
-
+function App() {
   return (
     <>
       <Header children={<HeaderCart />} />
-      <InfoSection />
+      <MainSection />
     </>
   )
 }
+
+export default App

@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        "shopCartAccent": "#FDCAC7",
+        "shopCartSecondary": "#6A60D3",
+      },
       fontFamily: {
         Flux: ["Afacad Flux", "sans-serif"]
       },
